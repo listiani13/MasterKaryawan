@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFFF99CC">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode" 
+        android:textColor ="#FF003366"
+	    android:textSize="12px"
+	    android:paddingBottom="5px"
+	    android:paddingTop="10px"
+	    android:paddingLeft="2px">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editKode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnCek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor ="#FF003366"
+	    android:textSize="12px"
+	    android:paddingBottom="5px"
+	    android:paddingTop="10px"
+	    android:paddingLeft="2px" >
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false">
+
+    </EditText>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="100px">
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
